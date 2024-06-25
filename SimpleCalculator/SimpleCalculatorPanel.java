@@ -1,24 +1,13 @@
 package SimpleCalculator;
 import java.awt.Color;
-import java.awt.Dimension;
 
-import javax.swing.JPanel;
+import GUI.CalculatorPanel;
 
-public class SimpleCalculatorPanel extends JPanel{
-    private int width;
-    private int height;
-    private Color bgColor;
-    
+public class SimpleCalculatorPanel extends CalculatorPanel{
 
     public SimpleCalculatorPanel(int width, int height, Color bgColor){
-        this.width = width;
-        this.height = height;
-        this.bgColor = bgColor;
-        createPanel();
+        super(width, height, bgColor);
     }
 
-    public void createPanel(){
-        this.setSize(new Dimension(width, height));
-        this.setBackground(bgColor);
-    }
+
 }
