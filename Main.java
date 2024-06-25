@@ -1,6 +1,5 @@
 
-import GUI.CalculatorWindow;
-import GUI.Constants;
+import GUI.GUI;
 
 /**
 *@author mirzaisi
@@ -13,16 +12,9 @@ import GUI.Constants;
 
 public class Main {
     public static void main(String[] args) {
-        CalculatorWindow calculatorWindow = new CalculatorWindow(Constants.CalculatorWindow.CALCULATOR_WINDOW_WIDTH, 
-        Constants.CalculatorWindow.CALCULATOR_WINDOW_HEIGHT, 
-        Constants.CalculatorWindow.CALCULATOR_WINDOW_TITLE, 
-        Constants.CalculatorWindow.CALCULATOR_WINDOW_ICON);   
 
-
-
+        GUI gui = new GUI();
         
-
-        calculatorWindow.setVisible(true);
     }
 
     
