@@ -13,18 +13,14 @@ import GUI.Constants;
 
 public class Main {
     public static void main(String[] args) {
-        CalculatorWindow calculatorWindow = new CalculatorWindow(
-        Constants.CALCULATOR_WINDOW_WIDTH, 
-        Constants.CALCULATOR_WINDOW_HEIGHT, 
-        Constants.CALCULATOR_WINDOW_TITLE, 
-        Constants.CALCULATOR_ICON_IMAGE, 
-        Constants.CALCULATOR_WINDOW_BG_COLOR);
-
+        CalculatorWindow calculatorWindow = new CalculatorWindow(Constants.CalculatorWindow.CALCULATOR_WINDOW_WIDTH, 
+        Constants.CalculatorWindow.CALCULATOR_WINDOW_HEIGHT, 
+        Constants.CalculatorWindow.CALCULATOR_WINDOW_TITLE, 
+        Constants.CalculatorWindow.CALCULATOR_WINDOW_ICON);   
 
 
 
         
-
 
         calculatorWindow.setVisible(true);
     }
